@@ -1,0 +1,27 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import java.util.Scanner;
+
+public class datatypes {
+   public datatypes() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      int var2 = var1.nextInt();
+      var1.nextLine();
+      String var3 = var1.nextLine();
+      float var4 = var1.nextFloat();
+      double var5 = var1.nextDouble();
+      var1.nextLine();
+      char var7 = var1.nextLine().charAt(0);
+      short var8 = var1.nextShort();
+      long var9 = var1.nextLong();
+      System.out.println("integer: " + var2);
+      System.out.println("String: " + var3);
+      System.out.println("Float: " + var4);
+      System.out.println("Double: " + var5);
+      System.out.println("char: " + var7);
+      System.out.println("short: " + var8);
+      System.out.println("Long: " + var9);
+   }
+}
