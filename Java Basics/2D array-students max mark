@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int [][] arr=new int[n][3];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<3;j++){
+                arr[i][j]=sc.nextInt();
+        }
+        }
+            int maxmaths=0;
+            int maxscience=0;
+            int maxenglish=0;
+            for(int i=0;i<n;i++){
+                if(arr[i][0]>maxmaths){
+                    maxmaths=arr[i][0];            
+                }
+                if(arr[i][1]>maxscience){
+                    maxscience=arr[i][1];
+                }
+                if(arr[i][2]>maxenglish){
+                    maxenglish=arr[i][2];
+                }
+            }   
+            System.out.print(maxmaths+" "+maxscience+" "+maxenglish);
+        
+    }
+}
