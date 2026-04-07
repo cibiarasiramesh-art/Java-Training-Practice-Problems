@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int s,e;
+    scanf("%d %d",&s,&e);
+    int found=0;
+    int count=0;
+    for(int i=s;i<=e;i++){
+        found=1;
+        for(int j=2;j<s;j++){
+            if(i%j==0){
+                found=0;
+                break;
+                
+            }
+            
+        
+        }
+        if(found==1){
+            count++;
+        }
+    }
+    printf("Primes: %d",count);
+    return 0;
+}
