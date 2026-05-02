@@ -1,0 +1,19 @@
+import java.util.*;
+public class Sizeofprimitivedatatype {
+    static int n;
+        static byte by;
+        static short s;
+        static long  l;
+        static float f;
+        static double d;
+        static boolean b;
+        static char c;
+    public static void main(String[] args){
+       
+        
+        System.out.print(n+" "+by+" "+s+" "+l+" "+f+" "+d+" "+b+" "+c);
+
+
+    }
+    
+}
