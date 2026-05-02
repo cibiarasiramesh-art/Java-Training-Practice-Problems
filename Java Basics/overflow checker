@@ -1,0 +1,21 @@
+import java.util.*;
+public class Overflow {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        try{
+            int val=Math.multiplyExact(n, m);
+            System.out.print(val+" ");
+
+        }
+        catch(ArithmeticException e){
+            System.out.print("data overflow");
+
+        }
+        
+       
+       
+    }
+    
+}
