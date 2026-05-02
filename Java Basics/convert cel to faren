@@ -1,0 +1,10 @@
+import java.util.*;
+public class Feren {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        float c=sc.nextFloat();
+        float val=(c*9/5)+32;
+        System.out.print(val);
+    }
+    
+}
